@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("Nhập số a:");
+        let b = +prompt("Nhập số b:");
+        let c = +prompt("Nhập số c:");
+        let numbers = [a, b, c];
+        numbers.sort(function (x, y) {
+            return x - y;  
+        });
+        console.log("Các số theo thứ tự tăng dần là:");
+        console.log(numbers[0]);
+        console.log(numbers[1]);
+        console.log(numbers[2]);
+    </script>
+</body>
+</html>

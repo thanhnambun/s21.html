@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let math = +prompt("nhap diem toan");
+      let literature = +prompt("nhap diem van");
+      let english = +prompt("nhap diem anh");
+      let point = (math + literature + english) / 3;
+      if (point <= 10 && point >= 8) {
+        document.write("gioi");
+      } else if (point >= 6.5 && point <= 7.9) {
+        document.write("kha");
+      } else if (point >= 5 && point <= 6.4) {
+        document.write("trung binh");
+      } else document.write("yeu");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+    let number  = parseFloat(prompt("nhập số  : "));
+    if(isNaN(number)){
+        console.log("vui long nhập lại");
+    }else{
+        if(number % 2 == 0){
+            console.log("là số chẵn");
+        }
+        else if(number % 2 !== 0  ){
+                console.log("số lẻ");
+            }
+        else{
+            console.log("không thỏa mãn vui lòng nhập lại");
+        }
+    }
+    </script>
+</body>
+</html>
